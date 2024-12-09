@@ -1,0 +1,59 @@
+h1 {
+    color: red;
+    font-family: "Rubik Iso", system-ui;
+    font-weight: 900;
+    font-style: normal;
+    font-size:90px;
+    margin:0;
+    padding:0;
+
+
+      
+}
+body, html {
+    margin: 0;
+    padding: 0;
+    border: 0;
+    background: rgb(24,0,36);
+    background: linear-gradient(180deg, rgba(24,0,36,1) 0%, rgba(121,9,113,1) 35%, rgba(113,0,0,1) 100%);
+    height:auto;
+    background-position:center;
+    background-size: cover;
+    display: inline-block;
+    box-sizing: border-box;
+    margin-bottom: 0;
+    vertical-align: top;
+}
+.rubik-glitch-pop-regular {
+    font-family: "Rubik Glitch Pop", system-ui;
+    font-weight: 400;
+    font-style: normal;
+  }
+  
+
+.center{
+    text-align:center;
+
+}
+
+.centimgs{
+    display:inline-block;
+    margin:5px 20px;
+    padding:5px;
+    
+}
+
+.headerimgs{
+    float: right;
+}
+h3{
+    margin:0;
+    padding:0;
+}
+.proj {
+    display:inline-block
+}
+
+.mestuff {
+    text-align:center;
+}
