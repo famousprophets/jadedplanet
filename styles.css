@@ -10,7 +10,10 @@ h1 {
     background-clip: border-box;
     -webkit-background-clip: text;
     -webkit-text-fill-color: transparent;
-    animation: move 35s linear infinite;
+    animation: move 120s linear infinite;
+    text-shadow:
+        1.07em 0 black,
+    
 }
 
 @keyframes move {
@@ -19,11 +22,27 @@ h1 {
     }
 }
 
-
-
-
-
-
+h3{
+    color: white;
+    text-shadow:
+        0.15em 0 black,
+        0 0.15em black,
+        -0.15em 0 black,
+        0 -0.15em black,
+        -0.15em -0.15em black,
+        -0.15em 0.15em black,
+        0.15em -0.15em black,
+        0.15em 0.15em black;
+}
+p {
+    color: white;
+    font-size: 20px;
+    text-shadow:
+        0.07em 0 black,
+        0 0.07em black,
+        -0.07em 0 black,
+        0 -0.07em black;
+}
 
 body, html {
     margin: 0;
@@ -71,4 +90,16 @@ h3{
 
 .mestuff {
     text-align:center;
+}
+.caption {
+    color: white;
+    text-shadow:
+        0.15em 0 black,
+        0 0.15em black,
+        -0.15em 0 black,
+        0 -0.15em black,
+        -0.15em -0.15em black,
+        -0.15em 0.15em black,
+        0.15em -0.15em black,
+        0.15em 0.15em black;
 }
