@@ -10,10 +10,21 @@ h1 {
     background-clip: border-box;
     -webkit-background-clip: text;
     -webkit-text-fill-color: transparent;
-
-
-      
+    animation: move 35s linear infinite;
 }
+
+@keyframes move {
+    to {
+        background-position:4500vh;
+    }
+}
+
+
+
+
+
+
+
 body, html {
     margin: 0;
     padding: 0;
