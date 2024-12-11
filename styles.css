@@ -3,7 +3,7 @@ h1 {
     font-family: "Rubik Glitch Pop", system-ui;
     font-weight: 900;
     font-style: normal;
-    font-size:90px;
+    font-size:calc(5vw + 5vh);
     margin:0;
     padding:0;
     background: linear-gradient(to right, #ef5350, #f48fb1, #7e57c2, #2196f3, #26c6da, #43a047, #eeff41, #f9a825, #ff5722); 
@@ -13,7 +13,7 @@ h1 {
     animation: move 120s linear infinite;
     text-shadow:
         1.07em 0 black,
-    
+
 }
 
 @keyframes move {
@@ -34,14 +34,22 @@ h3{
         0.15em -0.15em black,
         0.15em 0.15em black;
 }
-p {
+p{
     color: white;
-    font-size: 20px;
+    font-size: 100%;
     text-shadow:
         0.07em 0 black,
         0 0.07em black,
         -0.07em 0 black,
         0 -0.07em black;
+    text-align: center;
+    box-sizing: border-box;
+    vertical-align: auto;
+    height: auto;
+    width: fit-content;
+    flex-wrap: wrap;
+    text-wrap: wrap;
+    text-overflow: ellipsis;
 }
 
 body, html {
@@ -57,6 +65,7 @@ body, html {
     box-sizing: border-box;
     margin-bottom: 0;
     vertical-align: top;
+    max-width: 100vw;
 }
 .rubik-glitch-pop-regular {
     font-family: "Rubik Glitch Pop", system-ui;
@@ -72,13 +81,15 @@ body, html {
 
 .centimgs{
     display:inline-block;
-    margin:5px 20px;
-    padding:5px;
-    
+    margin:2% 5%;
+    padding:1%;
+    width: 35%;
+    height: 25%;
+    max-width: 90vw;
 }
 
 .headerimgs{
-    float: right;
+    float:right;
 }
 h3{
     margin:0;
